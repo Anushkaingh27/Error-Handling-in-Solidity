@@ -31,4 +31,4 @@ Once the contract is deployed, you can interact with it by calling the functions
     2. Check if the function is executed successfully or not. 
     3. Check the updated number of nodes. 
 ## Authors
-NAme: Anushka Singh e-mail:anushkasingh272005@gmail.com
+Name: Anushka Singh e-mail:anushkasingh272005@gmail.com
