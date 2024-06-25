@@ -29,6 +29,6 @@ Once the contract is deployed, you can interact with it by calling the functions
 
     1. Enter the balance. 
     2. Check if the function is executed successfully or not. 
-    3. Check the updated number of transaction. 
+    3. Check the updated number of transactions. 
 ## Authors
 Name: Anushka Singh e-mail:anushkasingh272005@gmail.com
