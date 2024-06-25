@@ -13,7 +13,7 @@ The contract enables a user to add a transaction over the network given the cond
 ## Getting Started
 
 #### Prerequisites
-- Solidity compiler version 0.8.0 or compatible.
+- Solidity compiler version 0.8.13 or compatible.
 - Ethereum development environment (e.g., Remix, Truffle) for deployment and interaction.
 
 #### Deployment
