@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 //This Solidity contract ErrorHandling, is designed to demonstrate various error handling mechanisms in the Ethereum blockchain. The contract includes three key functions that showcase different ways
-to handle errors: require, assert, and revert.
+to handle errors: require(), assert() and revert().
 
 pragma solidity ^0.8.13;
 
