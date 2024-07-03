@@ -1,9 +1,9 @@
 # Error Handling in Solidity
 
-The Solidity smart contract demonstrates the usage of the `require()`, `revert()`, and `assert()` statements. The contract includes functions to check the balance of a user and the number of transactions and enforces certain conditions using these error handling statements.
+The Solidity smart contract demonstrates the usage of the `require()`, `revert()`, and `assert()` statements. The contract includes functions to check the age of a user and the number of nodes and enforces certain conditions using these error handling statements.
 ## Description
 
-The contract enables a user to add a transaction over the network given the condition that the amount should be greater than 100 over the network cannot exceed 10. It has three error handling functions to maintain the factors. The error handling allows us to save gas from being consumed unnecessarily.
+The contract enables a user to add a node over the network given the condition that he should be above the age of 18 and the number of nodes over the network cannot exceed 5. It has three error handling functions to maintain the factors. The error handling allows us to save gas from being consumed unnecessarily.
 
 • `require()`: It is used for input validation and access control before further execution of the function.
 
@@ -27,8 +27,8 @@ The contract enables a user to add a transaction over the network given the cond
 #### Interacting with the Contract
 Once the contract is deployed, you can interact with it by calling the functions.
 
-    1. Enter the balance. 
+    1. Enter the age. 
     2. Check if the function is executed successfully or not. 
-    3. Check the updated number of transactions. 
+    3. Check the updated number of nodes. 
 ## Authors
 Name: Anushka Singh e-mail:anushkasingh272005@gmail.com
