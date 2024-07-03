@@ -1,29 +1,29 @@
-// SPDX-License-Identifier: MIT
+//SPDX-License-Identifier: MIT
 
-//This Solidity contract ErrorHandling, is designed to demonstrate various error handling mechanisms in the Ethereum blockchain. The contract includes three key functions that showcase different ways
-//to handle errors: require(), assert() and revert().
+// This is a smart contract that implements the require(), assert() and revert() statements.
 
 pragma solidity ^0.8.13;
 
 contract ErrorHandling {
-    uint public balance;                       
-    uint public transactionCount;              
+    uint public personAge;                       // holds the age of the user
+    uint public node;                           // holds the number of nodes
 
-    function checkRequire(uint _amount) public {  
-        balance = _amount;
-        require(balance > 100, "Amount must be greater than 100.");
-        transactionCount+=1;
+    function checkRequire(uint _personAge) public {   //allow user to proceed if the age is above 18
+        personAge=_personAge;
+        require(personAge>18, "THE PERSON ARE A MINOR.");
+       node+=1;
     }
 
-    function checkRevert(uint _amount) public {  
-        balance = _amount;
-        if (balance <= 100) {
-            revert("Amount must be greater than 100.");
+    function checkRevert(uint _personAge) public {   //allow user to proceed if the age is above 18
+        personAge=_personAge;
+        if (personAge<18) {
+            revert("THE PERSON ARE A MINOR.");
         }
-        transactionCount+=1;
-}
+        node+=1;
+    }    
 
-    function checkAssert() public view {  
-        assert(transactionCount < 10);
+    function checkAssert() public view {      // number of nodes can't exceed 5
+        assert(node<5);
     }
+
 }
